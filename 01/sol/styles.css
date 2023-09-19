@@ -1,0 +1,78 @@
+/*
+Cuerpo de la página (body):
+	Color de fondo: #dcdbdb
+	Tipo de letra: Arial (en caso de no disponer de ella, indicar fuente “sans serif”)
+	Margen ext. superior: 100px;
+	Margen ext. izquierdo: 200px;
+	Margen interior: 5px
+	Borde: Sólido, 2px de grosor y de color negro.
+	800px de ancho total.
+*/
+body {
+	background-color: #dcdbdb;
+	font-style: Arial;
+	margin-top: 100px;
+	margin-left: 200px;
+	padding: 5px;
+	border: 2px solid black;
+	width: 800px;
+}
+
+/*
+Todo el contenido estará dentro de un DIV que deberá cumplir lo siguiente:
+	Color de fondo blanco
+	Color de la letra “dimgrey”
+*/
+div {
+	background-color: white;
+	color: dimgrey;
+}
+
+/*
+Título principal
+	Borde inferior sólido, 2px de grosor y de color negro.
+	Color del texto #1bb9c2
+	Margen interior inferior de 14px;
+	Texto centrado
+	Margen inferior de 1.5em
+*/
+
+h1 {
+	border-bottom: 2px solid black;
+	color: #1bb9c2;
+	padding-bottom: 14px;
+	text-align: center;
+	margin-bottom: 1.5em;
+}
+
+/*
+Títulos secundarios
+	Texto alineado a la izquierda.
+	Borde inferior de puntos (dotted), 1px de grosor y de color #1bb9c2.
+	Margen interior inferior de 10px;
+	Margen superior de 2em e inferior de 1.5em
+	Ancho del 80%
+*/
+
+h2, h3, h4, h5, h6 {
+	text-align: left;
+	border-bottom: 1px dotted #1bb9c2;
+	padding-bottom: 10px;
+	margin-top: 2em;
+	margin-bottom: 1.5em;
+	width: 80%;
+}
+
+/* Los párrafos tendrán un margen izquierdo de 40px y una altura de línea de 1.5em */
+
+p {
+	margin-left: 40px;
+	line-height: 1.5em;
+}
+
+/* Los enlaces serán de color #1bb9c2 y grosor de 700. */
+
+a {
+	color: #1bb9c2;
+	width: 700;
+}
